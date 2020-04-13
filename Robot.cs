@@ -23,6 +23,7 @@ namespace Robo_Dino_Proj
             powerLevel = 5;
             weapon = new Weapon();
             attackPower = 20;
+
         }
         //member methods (can do)
         public void Attack(Dinosaur dinosaur)
