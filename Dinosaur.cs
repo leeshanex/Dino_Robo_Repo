@@ -9,16 +9,16 @@ namespace Robo_Dino_Proj
     class Dinosaur
     {
         //member variables (has a)
-        string dinoType;
+        public string dinoType;
         public int healthPoints;
         int energyLevel;
         int attackPower;
 
         //constructor (spawner)
-        public Dinosaur(string name)
+        public Dinosaur(string dinoType)
         {
             dinoType = "Dino Master";
-            this.name = name;
+            this.dinoType = dinoType;
             healthPoints = 100;
             energyLevel = 5;
             attackPower = 10;
