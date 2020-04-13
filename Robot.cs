@@ -20,6 +20,7 @@ namespace Robo_Dino_Proj
         {
             name = "Master Robo";
             this.name = name;
+            
 
             healthPoints = 70;
             powerLevel = 5;
@@ -32,6 +33,14 @@ namespace Robo_Dino_Proj
         {
             dinosaur.healthPoints -= attackPower;
         }
+        public void PowerLevel(Fleet fleet)
+        {
+            if(powerLevel == 0)
+            {
+                
+            }
+        }
+
 
 
     }

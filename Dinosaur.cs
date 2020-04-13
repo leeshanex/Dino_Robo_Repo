@@ -17,10 +17,11 @@ namespace Robo_Dino_Proj
         //constructor (spawner)
         public Dinosaur(string dinoType)
         {
-            dinoType = "Dino Master";
+            dinoType = "Dino Master Triceratop";
             this.dinoType = dinoType;
+
             healthPoints = 100;
-            energyLevel = 5;
+            energyLevel = 7;
             attackPower = 10;
 
         }
@@ -29,6 +30,7 @@ namespace Robo_Dino_Proj
         public void Attack(Robot robot)
         {
             robot.healthPoints -= attackPower;
+            energyLevel -= 1;
         }
     }
 }

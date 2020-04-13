@@ -14,7 +14,7 @@ namespace Robo_Dino_Proj
         //constructor (spawner)
         public Weapon()
         {
-            weaponType = 
+            
         }
         //member methods (can do)
     }

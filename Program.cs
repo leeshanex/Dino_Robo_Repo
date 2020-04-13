@@ -10,6 +10,7 @@ namespace Robo_Dino_Proj
     {
         static void Main(string[] args)
         {
+            Console.ReadLine();
         }
     }
 }
