@@ -9,14 +9,18 @@ namespace Robo_Dino_Proj
     class Herd
     {
         //member variables (has a)
-        List<string> dinosaurs = new List<string>();
+        Dinosaur dino_1 = new Dinosaur("Dino_1");
+        Dinosaur dino_2 = new Dinosaur("Dino_2");
+        Dinosaur dino_3 = new Dinosaur("Dino_3");
+
+        List<Dinosaur> dinosaurs = new List<Dinosaur>();
 
         //constructor (spawner)
         public Herd()
         {
-            dinosaurs.Add("Dino_1");
-            dinosaurs.Add("Dino_2");
-            dinosaurs.Add("Dino_3");
+            dinosaurs.Add(dino_1);
+            dinosaurs.Add(dino_2);
+            dinosaurs.Add(dino_3);
 
         }
         //member methods (can do)

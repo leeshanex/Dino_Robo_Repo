@@ -15,9 +15,10 @@ namespace Robo_Dino_Proj
         int attackPower;
 
         //constructor (spawner)
-        public Dinosaur()
+        public Dinosaur(string name)
         {
-            dinoType = "Triceratop";
+            dinoType = "Dino Master";
+            this.name = name;
             healthPoints = 100;
             energyLevel = 5;
             attackPower = 10;

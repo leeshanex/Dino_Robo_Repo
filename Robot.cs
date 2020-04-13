@@ -9,16 +9,18 @@ namespace Robo_Dino_Proj
     class Robot
     {
         //member variables (has a)
-        string name;
+        public string name;
         public int healthPoints;
         int powerLevel;
         Weapon weapon;
         int attackPower;
 
         //constructor (spawner)
-        public Robot()
+        public Robot(string name)
         {
-            name = "Master";
+            name = "Master Robo";
+            this.name = name;
+
             healthPoints = 70;
             powerLevel = 5;
             weapon = new Weapon();

@@ -9,12 +9,12 @@ namespace Robo_Dino_Proj
     class Weapon
     {
         //member variables (has a)
-        public int RobotPunch;
+        public string weaponType;
 
         //constructor (spawner)
         public Weapon()
         {
-            RobotPunch = 
+            weaponType = 
         }
         //member methods (can do)
     }
