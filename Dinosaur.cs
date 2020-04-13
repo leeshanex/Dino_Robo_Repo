@@ -17,7 +17,7 @@ namespace Robo_Dino_Proj
         //constructor (spawner)
         public Dinosaur()
         {
-            dinoType = "TBD";
+            dinoType = "Triceratop";
             healthPoints = 100;
             energyLevel = 5;
             attackPower = 10;

@@ -18,11 +18,11 @@ namespace Robo_Dino_Proj
         //constructor (spawner)
         public Robot()
         {
-            name = "TBD";
-            healthPoints = 100;
+            name = "Master";
+            healthPoints = 70;
             powerLevel = 5;
             weapon = new Weapon();
-            attackPower = 10;
+            attackPower = 20;
         }
         //member methods (can do)
         public void Attack(Dinosaur dinosaur)
