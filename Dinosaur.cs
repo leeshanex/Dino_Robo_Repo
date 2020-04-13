@@ -19,13 +19,15 @@ namespace Robo_Dino_Proj
         {
             dinoType = "TBD";
             healthPoints = 100;
+            energyLevel = 5;
+            attackPower = 10;
 
-
-
-                
         }
 
         //member methods (can do)
-        public void 
+        public void Attack(Robot robot)
+        {
+            robot.healthPoints -= attackPower;
+        }
     }
 }

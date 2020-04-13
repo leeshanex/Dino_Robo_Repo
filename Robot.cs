@@ -10,7 +10,7 @@ namespace Robo_Dino_Proj
     {
         //member variables (has a)
         string name;
-        int healthPoints;
+        public int healthPoints;
         int powerLevel;
         Weapon weapon;
         int attackPower;
