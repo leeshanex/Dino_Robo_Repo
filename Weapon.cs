@@ -9,7 +9,7 @@ namespace Robo_Dino_Proj
     class Weapon
     {
         //member variables (has a)
-        public string weaponType;
+        public int weaponType;
 
         //constructor (spawner)
         public Weapon()

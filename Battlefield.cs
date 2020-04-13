@@ -11,15 +11,23 @@ namespace Robo_Dino_Proj
         //member variables (has a)
         //What does a Battlefield "have"?
         //Declare the herd and the fleet up here
+        Fleet fleet = new Fleet();
+        Herd herd = new Herd();
         
-
         //constructor (spawner)
         public Battlefield()
         {
             //Instantiate the herd and the fleet
+            fleet = Robot
+              
 
         }
         //member methods (can do)
+
+        public void Battle()
+        {
+           
+        }
 
     }
 }
