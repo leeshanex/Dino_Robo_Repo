@@ -15,12 +15,10 @@ namespace Robo_Dino_Proj
         Herd herd = new Herd();
         
         //constructor (spawner)
-        public Battlefield(Robot robot)
+        public Battlefield()
         {
             //Instantiate the herd and the fleet
-            fleet = 
-              
-
+            
         }
         //member methods (can do)
 
