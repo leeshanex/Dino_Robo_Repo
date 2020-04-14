@@ -19,11 +19,9 @@ namespace Robo_Dino_Proj
         //constructor (spawner)
         public Herd()
         {
-           
             dinosaurs.Add(dino_1);
             dinosaurs.Add(dino_2);
             dinosaurs.Add(dino_3);
-
         }
         //member methods (can do)
     }

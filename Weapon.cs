@@ -9,13 +9,16 @@ namespace Robo_Dino_Proj
     class Weapon
     {
         //member variables (has a)
-        public int weaponType;
+        List<Robot> weaponType = new List<Robot>();
+        Robot claw = new Robot("Claw");
 
         //constructor (spawner)
         public Weapon()
         {
-            
+            weaponType.Add(claw);
         }
         //member methods (can do)
+
+
     }
 }

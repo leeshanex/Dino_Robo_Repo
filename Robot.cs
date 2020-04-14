@@ -20,7 +20,6 @@ namespace Robo_Dino_Proj
         {
             name = "Master Robo";
             this.name = name;
-            
             healthPoints = 70;
             powerLevel = 5;
             weapon = new Weapon();
